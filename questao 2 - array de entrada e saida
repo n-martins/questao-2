@@ -1,0 +1,14 @@
+
+int i
+int[] E = new int[5];
+int[] S = new int[5];
+
+for(i = 0; i < 5; i++){
+    if(i == 0){
+        S[i] = E[i];
+    }
+    else{
+        S[i] = S[i-1] + E[i];
+    }    
+
+} 
